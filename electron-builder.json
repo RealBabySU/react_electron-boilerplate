@@ -1,0 +1,16 @@
+{
+   "appId": "com.example.app",
+   "files": ["dist-electron", "dist-react"],
+   "productName": "Your Product Name",
+   "icon": "./desktopIcon.png",
+   "mac": {
+      "target": "dmg"
+   },
+   "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+   }, 
+   "win": {
+      "target": ["portable", "msi"]
+   }
+}
